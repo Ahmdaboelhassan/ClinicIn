@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/ClinicIn.Domain/ClinicIn.Domain.csproj" />
+        <Project Path="src/ClinicIn.Application/ClinicIn.Application.csproj" />
+        <Project Path="src/ClinicIn.EntityFrameworkCore/ClinicIn.EntityFrameworkCore.csproj" />
+        <Project Path="src/ClinicIn.Domain.Shared/ClinicIn.Domain.Shared.csproj" />
+        <Project Path="src/ClinicIn.Application.Contracts/ClinicIn.Application.Contracts.csproj" />
+        <Project Path="src/ClinicIn.HttpApi/ClinicIn.HttpApi.csproj" />
+        <Project Path="src/ClinicIn.HttpApi.Client/ClinicIn.HttpApi.Client.csproj" />
+        <Project Path="src/ClinicIn.HttpApi.Host/ClinicIn.HttpApi.Host.csproj" />
+        <Project Path="src/ClinicIn.DbMigrator/ClinicIn.DbMigrator.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/ClinicIn.Application.Tests/ClinicIn.Application.Tests.csproj" />
+        <Project Path="test/ClinicIn.EntityFrameworkCore.Tests/ClinicIn.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/ClinicIn.TestBase/ClinicIn.TestBase.csproj" />
+        <Project Path="test/ClinicIn.Domain.Tests/ClinicIn.Domain.Tests.csproj" />
+        <Project Path="test/ClinicIn.HttpApi.Client.ConsoleTestApp/ClinicIn.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>

@@ -1,0 +1,114 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "5.6.1",
+      "isInstalled": true,
+      "creationTime": "09/28/2026 21:53:31 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "09/28/2026 21:53:31 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "09/28/2026 21:53:31 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "09/28/2026 21:53:31 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "09/28/2026 21:53:31 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "09/28/2026 21:53:31 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "09/28/2026 21:53:31 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "09/28/2026 21:53:31 +00:00"
+    },
+    "Volo.Abp.BlobStoring.Database": {
+      "version": "10.6.1",
+      "isInstalled": true,
+      "creationTime": "09/28/2026 21:53:31 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "ClinicIn.Application": {
+      "path": "src/ClinicIn.Application/ClinicIn.Application.abppkg",
+      "folder": "src"
+    },
+    "ClinicIn.Application.Tests": {
+      "path": "test/ClinicIn.Application.Tests/ClinicIn.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "ClinicIn.Domain.Shared": {
+      "path": "src/ClinicIn.Domain.Shared/ClinicIn.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "ClinicIn.Application.Contracts": {
+      "path": "src/ClinicIn.Application.Contracts/ClinicIn.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "ClinicIn.HttpApi": {
+      "path": "src/ClinicIn.HttpApi/ClinicIn.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "ClinicIn.HttpApi.Client": {
+      "path": "src/ClinicIn.HttpApi.Client/ClinicIn.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "ClinicIn.EntityFrameworkCore.Tests": {
+      "path": "test/ClinicIn.EntityFrameworkCore.Tests/ClinicIn.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "ClinicIn.EntityFrameworkCore": {
+      "path": "src/ClinicIn.EntityFrameworkCore/ClinicIn.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "ClinicIn.TestBase": {
+      "path": "test/ClinicIn.TestBase/ClinicIn.TestBase.abppkg",
+      "folder": "test"
+    },
+    "ClinicIn.Domain.Tests": {
+      "path": "test/ClinicIn.Domain.Tests/ClinicIn.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "ClinicIn.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ClinicIn.HttpApi.Client.ConsoleTestApp/ClinicIn.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "ClinicIn.DbMigrator": {
+      "path": "src/ClinicIn.DbMigrator/ClinicIn.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "ClinicIn.HttpApi.Host": {
+      "path": "src/ClinicIn.HttpApi.Host/ClinicIn.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "ClinicIn.Domain": {
+      "path": "src/ClinicIn.Domain/ClinicIn.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
