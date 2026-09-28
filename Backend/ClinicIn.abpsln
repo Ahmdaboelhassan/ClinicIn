@@ -1,6 +1,6 @@
 {
-  "id": "3343c609-9658-4452-a817-84196f485951",
-  "creationTime": "09/28/2026 21:53:31 +00:00",
+  "id": "ae5b939e-840e-4c92-a666-634db589c9d0",
+  "creationTime": "09/28/2026 22:37:50 +00:00",
   "template": "app",
   "versions": {
     "AbpFramework": "10.6.1",
@@ -38,7 +38,7 @@
     "distributedEventBus": "none",
     "databaseProvider": "ef",
     "runDbMigrator": "",
-    "databaseManagementSystem": "sqlite",
+    "databaseManagementSystem": "sqlserver",
     "separateTenantSchema": "false",
     "createInitialMigration": "",
     "theme": "leptonx-lite",
@@ -50,6 +50,6 @@
     "sampleCrudPage": "false",
     "selectedLanguages": ["English", "Arabic", "Chinese (Simplified)", "Chinese (Traditional)", "Czech", "English (UK)", "Finnish", "French", "German (Germany)", "Hindi ", "Hungarian", "Icelandic", "Italian", "Korean", "Portuguese (Brazil)", "Romanian (Romania)", "Russian", "Slovak", "Spanish", "Swedish", "Turkish", ],
     "defaultLanguage": "English",
-    "createCommand": "abp new ClinicIn -t app --database-provider ef --database-management-system sqlite --theme leptonx-lite --skip-migration  --skip-migrator  --without-cms-kit --dont-run-install-libs --dont-run-bundling -no-file-management"
+    "createCommand": "abp new ClinicIn -t app --database-provider ef --database-management-system sqlserver --theme leptonx-lite --skip-migration  --skip-migrator  --without-cms-kit --dont-run-install-libs --dont-run-bundling -no-file-management"
   }
 }

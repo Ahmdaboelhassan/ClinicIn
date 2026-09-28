@@ -2,7 +2,7 @@
   "applications": {
     "ClinicIn.HttpApi.Host": {
       "type": "dotnet-project",
-      "launchUrl": "https://localhost:44317",
+      "launchUrl": "https://localhost:44358",
       "path": "../../../src/ClinicIn.HttpApi.Host/ClinicIn.HttpApi.Host.csproj",
       "kubernetesService": ".*-httpapihost$",
       "healthCheckEndpoint": "/health-status",

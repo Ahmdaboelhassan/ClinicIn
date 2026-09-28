@@ -17,7 +17,7 @@ public class ClinicInDbContextFactory : IDesignTimeDbContextFactory<ClinicInDbCo
         ClinicInEfCoreEntityExtensionMappings.Configure();
 
         var builder = new DbContextOptionsBuilder<ClinicInDbContext>()
-            .UseSqlite(configuration.GetConnectionString("Default"));
+            .UseSqlServer(configuration.GetConnectionString("Default"));
         
         return new ClinicInDbContext(builder.Options);
     }
