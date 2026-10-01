@@ -3,8 +3,7 @@ using Volo.Abp.Application.Services;
 
 namespace ClinicIn;
 
-/* Inherit your application services from this class.
- */
+/* Inherit your application services from this class.*/
 public abstract class ClinicInAppService : ApplicationService
 {
     protected ClinicInAppService()
